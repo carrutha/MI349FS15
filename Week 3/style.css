@@ -1,0 +1,28 @@
+#container{
+	margin: 0 auto;
+	width: 700px;
+	background: #fff url('alton-brown-onion-dip.jpg') no-repeat top center;
+	padding-top: 200px;
+	border-top: 10px solid #E7D88F
+}
+
+body{
+	background: #1C4903;
+	margin: 0;
+	font-family: Helvetica;
+	
+}
+
+article{
+	padding: 20px;
+	background: #FFFFFF;	
+}
+
+.recipe {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #1C4903;	
+	background-color: #E7D88F;
+	margin:0;
+	padding:20px;
+	
+}
