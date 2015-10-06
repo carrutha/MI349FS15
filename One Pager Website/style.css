@@ -9,10 +9,10 @@ body {
   width: 600px;
   padding-top: 150px;
   background: #fff url(panoramic-view.jpg) no-repeat top center;
-  border-top: 10px solid #424242;
+  border-top: 10px solid #181818;
 }
 
-#ab-onion-dip{
+#one{
   padding: 20px 40px;
   background: #fff;
 }
@@ -36,6 +36,9 @@ a:hover {
 a:active{
 		
 }
+ol li {
+	padding: 20px;	
+}
 
 ul li:last-child{
 	color: none;
@@ -49,62 +52,55 @@ ul li:nth-child(2n+4) {
 
 
 ul li {
-	display:inline-block;
-	padding: 25px;
-	width: 100px;
+	display:inline-flex;
+	padding: 2px;
+	padding-top:0px;
+	width: 150px;
 	margin: 0;
 }
 
 #aboutimages{
 text-align: center;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     float:left;
     }
 
 #aboutimgleft img{
     float:left;
-    padding-bottom:20px;
-    padding-top:20px;
-    padding-left:20px;
+    padding-bottom:10px;
+    padding-top:0px;
+    padding-left:50px;
 } 
 
 #aboutimgcenter {
-    margin: 0 auto; 
-    width: 70%;
+    margin: auto; 
+	padding-left:220px;
+	padding-right:0px;
 }
 
 #aboutimgcenter img{
-    text-align:center;
-    padding-bottom:20px;
-    padding-top:20px;
+    float:left;
+    padding-bottom:0px;
+    padding-top:0px;
 }
 
 #aboutimgright img{
     float:right;
-    padding-bottom:20px;
-    padding-top:20px;
-    padding-right:px;
+    padding-bottom:0px;
+    padding-top:0px;
+    padding-right:0px;
     
 } 
 
 ol {
 	
-	float:left;
-	width: 300px;
+	display:inline-block;
+	width: 150px;
+	padding:20px;
 }
 
 h3 {
 	clear: both;
 }
 
-/*
-Pseudo classes
-LoVHAte (:link, :visited, :hover, :active)
-:first-child
-:last-child
-:nth-child(an+b/even/odd/n)
-*/
-
-/* Inline, Inline-Block and Block */
-/* Float example */
