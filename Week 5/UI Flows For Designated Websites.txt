@@ -1,0 +1,22 @@
+Amazon:
+
+Homepage              Item displayed in lists    Item Page Displayed    Asking For buyer Info     Confirm info page    Item Ordered Successfully
+----------------- ->  ----------------------- -> ------------------- -> ---------------------  -> ----------------- -> -------------------------
+Search bar for item   Click on wanted item       Clicks Buy Now         Type in info click next   Click confirm        Clicks to go to Homepage
+
+Google
+
+Homepage           Displays results    Displays Webpage
+-------------- ->  ---------------- -> ----------------
+Searchbar for      User Clicks a       If user likes it
+Onion Dip          result              they stay if not
+                                       they leave and return
+                                       to google result page
+
+Petition @ whitehouse.gov
+
+                  Don't have account create one
+Homepage          Have account sign in              State your petition      Submit Petition
+-------------- -> ------------------------------ -> -------------------   -> -----------------
+click create a    Click repective button            Fill out petition page   Submit petition to
+petition                                                                     proper department

@@ -1,0 +1,4 @@
+Homepage         Resume displayed
+------------- -> ------------------
+Clicks Resume    Clicks email address
+                 to email me
