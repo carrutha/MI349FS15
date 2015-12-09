@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width: 600px) {
+	html{
+		background-image: url(background.jpg)
+		
+	}
+	
+	.box{
+		float: left;
+	}
+	
+	#header {
+		text-align:center;
+		background-color: #666666;
+		width:auto;
+		height: 50px;
+		float: center;
+		padding: 8px;
+	}
+	
+	#text {
+		width: auto;
+		margin: 1em auto;
+		border-color: #626262;
+		border-style: solid;
+		border-width: 3px;
+		padding: 10px;
+		background-color: #BDBDBD;
+		color: #000000;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	
+	#profile { 
+		text-align:center;
+		padding: 10px;
+	}
+	
+	#title {
+		text-align:center;
+		font-weight:bold;
+	}
+	
+	#picheader {
+		text-align:center;
+		font-weight:bold;
+	}
+	
+	li {
+		list-style-type:none;
+	}
+	
+	#pictures {
+		text-align:center;
+	}
+	#menu {
+		background-color:#000000;
+		position: absolute;
+		left:0;
+		width: 150px;
+		
+	}
+	#menulist {
+		list-style-type:none;
+		color:#FFFFFF;
+		text-align:center;
+		padding: 10px;
+		margin: auto;
+	}
+	
+	.menuitem {
+		padding: 10px;		
+	}
+	a {
+  		font-weight: bold;
+  		color: #FFFFFF;
+  		text-decoration:none;
+	}
+	a:hover {
+		font-weight:bold;
+		text-decoration: none;
+		color:#FFFFFF;
+	}
+	a:visited {
+		font-weight: bold;
+		color:#FFFFFF;
+	}
+	
+}
+
+@media (min-width: 601px) {
+	
+	html {
+		background-image: url(background.jpg);
+	}
+	
+	.box{
+		float: left;
+		
+	}
+	
+	#header {
+		text-align:left;
+		background-color: #666666;
+		width:auto;
+		height: 50px;
+		float: center;
+		padding: 8px;
+		padding-left: 10px;
+	}
+	
+	#text {
+		width: 600px;
+		margin: 1.5em auto;
+		border-color: #626262;
+		border-style: solid;
+		border-width: 5px;
+		padding: 30px;
+		background-color: #BDBDBD;
+		color: #000000;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	
+	#profile {
+		text-align: center;
+		padding: 30px;
+	}
+	
+	#title {
+		text-align:center;
+		float: center;
+	}
+	
+	li {
+		list-style-type:none;
+	}
+	
+	#picheader {
+		text-align:center;
+		font-weight:bold;
+	}
+	
+	#pictures {
+		text-align: center;
+		padding: 20px;
+		padding-bottom: 20px;
+	}
+	#menu {
+		background-color:#000000;
+		position: absolute;
+		left:0;
+		width: 150px;
+		
+	}
+	#menulist {
+		list-style-type:none;
+		color:#FFFFFF;
+		text-align:center;
+		padding: 10px;
+		margin: auto;
+	
+	}
+	
+	.menuitem {
+		padding:10px;
+	}
+	a {
+  		font-weight: bold;
+  		color: #FFFFFF;
+  		text-decoration:none;
+	}
+	a:hover {
+		font-weight: bold;
+		text-decoration: none;
+		color:#FFFFFF;
+	}
+	a:visited {
+		font-weight:bold;
+		color:#FFFFFF;
+	}
+}

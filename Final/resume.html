@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Resume</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+
+<body>
+<div class="box"><img src="menuicon.png" width="68" height="68" alt=""/></div>
+<div id="header"> <h1>ALEC CARRUTH </h1></div>
+
+<div id="menu">
+<ul id="menulist">
+	<li class="menuitem"><a href="index.html" title="HOME">HOME</a></li>
+    <li class="menuitem"><a href="resume.html" title="Resume">RESUME</a></li>
+    <li class="menuitem"><a href="about.html" title="About Me">ABOUT ME</a></li>
+    <li class="menuitem"><a href="links.html">LINKS</a></li>    
+</ul>
+</div>
+<div id="text">
+<div id="title"><h2>RESUME</h2></div>
+<p> </p>
+<h2>Education</h2>
+<ul> 
+	<li> Michigan State University Class of 2017 In-degree -  GPA: 3.25</li>
+    <li>Traverse City West Senior High Class of 2013 - GPA: 3.74</li>
+</ul>
+
+<h2>Work History</h2>
+
+<h3> MSU Computer Help and Repair: Senior Consultant</h3>
+<p> Employed since August 2014. Responsibilites include helping students with a variety of problems from hardware and software issues, to connectivity and application troubleshooting.</p>
+
+<h3>Integrity Software: I.T. Intern</h3>
+<p> Employed over summer of 2015 as an intern in a freelance I.T. company. The comapny helped small businesses that could not hire full time I.T. staff. Over the course of the summer I managed servers, implemented new servers, networking, and day to day troubleshooting</p>
+
+<h3>Team Elmer's</h3>
+<p> I have interned at Team Elmer's twice. Both over winter breaks in 2013 and 2014. At Team Elmer's my responsibility was to troubleshoot issues within the office and some server administration.</p>
+
+<h2>Volunteer Experience</h2> 
+	<p>Completed various restoration projects during mission trpis to New York City and Canada.</p>
+    <p>On-Ice instructor for kid programs at Grand Traverse Hockey Association and Traverse City West High School.</p>
+    <p>Manage and Captain MSU IM hockey and soccer teams</p>
+</div>
+</body>
+<script>
+$().ready(function(){
+	$("#menu").hide();});
+$(".box").on('click',function(){
+	$("#menu").toggle();});
+ </script>
+</html>

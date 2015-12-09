@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Alec Carruth</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+<div class="box"><img src="menuicon.png" width="68" height="68" alt=""/></div>
+
+<div id="header"><h1> ALEC CARRUTH </h1></div>
+
+<div id="menu">
+<ul id="menulist">
+	<li class="menuitem"><a href="index.html" title="HOME">HOME</a></li>
+    <li class="menuitem"><a href="resume.html" title="Resume">RESUME</a></li>
+    <li class="menuitem"><a href="about.html" title="About Me">ABOUT ME</a></li>
+    <li class="menuitem"><a href="links.html">LINKS</a></li>    
+</ul>
+</div>
+
+<body>
+<div id="text">
+<div id="title"><h2> Brief Bio </h2></div>
+<div id="profile"><img src="profile.jpg" width="232" height="232" alt=""/> 
+</div>
+<p> I am a junior at Michigan State University with a major in Media and Information and a minor in Information Technology. This site was created to allow those to gather information about me in a quick and easy manor. The website contains my resume, a in-depth bio and links to my external sites.</p>
+
+</div>
+</body>
+<script>
+$().ready(function(){
+	$("#menu").hide();});
+$(".box").on('click',function(){
+	$("#menu").toggle();});
+ </script>
+</html>

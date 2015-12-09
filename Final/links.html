@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+<div class="box"><img src="menuicon.png" width="68" height="68" alt=""/></div>
+
+<div id="header"><h1>ALEC CARRUTH</h1></div>
+
+<div id="menu">
+<ul id="menulist">
+	<li class="menuitem"><a href="index.html" title="HOME">HOME</a></li>
+    <li class="menuitem"><a href="resume.html" title="Resume">RESUME</a></li>
+    <li class="menuitem"><a href="about.html" title="About Me">ABOUT ME</a></li>
+    <li class="menuitem"><a href="links.html">LINKS</a></li>    
+</ul>
+</div>
+
+<body>
+<div id="text">
+<div id="title"><h2>External Links</h2></div>
+
+<h3><a href="https://www.facebook.com/alec.carruth">Facebook Profile</a></h3>
+
+<h3><a href="https://www.linkedin.com/profile/view?id=AAMAABGBXbkBXMMy0tHXg-nLWyQaO-H72mz6v2w&trk=hp-identity-name">LinkedIN Profile</a></h3>
+
+<h3><a href="https://twitter.com/alec_carruth">Twitter Page</a></h3>
+
+<h3><a href="https://github.com/carrutha">GitHub Account</a></h3>
+
+
+</div>
+</body>
+<script>
+$().ready(function(){
+	$("#menu").hide();});
+$(".box").on('click',function(){
+	$("#menu").toggle();});
+ </script>
+</html>
